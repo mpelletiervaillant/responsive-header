@@ -29,18 +29,59 @@ body {
 
 header {
   background-color: #18294f;
+  width: 100%;
 }
 
 h1 {
   color: #fff;
+  text-align: center;
+  padding: .75rem;
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: .9rem;
 }
 
 a {
   color: #6c8fe0;
   text-decoration: none;
-  font: "ubuntu";
 }
+
+li {
+  padding: .3em 0 .5em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  header {
+    position: absolute;
+  }
+
+  li {
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height:1.4;
+  }
+
+  li {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
