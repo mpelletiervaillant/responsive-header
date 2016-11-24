@@ -30,3 +30,14 @@ body {
 header {
   background-color: #18294f;
 }
+
+h1 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+
+}
